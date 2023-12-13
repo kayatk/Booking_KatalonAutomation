@@ -1,0 +1,29 @@
+{
+  "keywordFileContentHash": "98D717E539B6A5C952089BDB6877858F",
+  "keywordClasses": [
+    {
+      "name": "frameWorkKey.clickElement",
+      "keywordMethods": [
+        {
+          "name": "click",
+          "parameters": [
+            {
+              "name": "path",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "javadocParsed": false
+}

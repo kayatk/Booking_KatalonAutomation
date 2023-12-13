@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_21</name>
+   <tag></tag>
+   <elementGuidId>1caed427-1ca6-4e05-8a42-c724623fd43e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Sat'])[2]/following::span[41]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>8313ea44-06ec-4d75-b8ce-73ab032bca62</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ng-tns-c20-20</value>
+      <webElementGuid>f2caee5f-f417-45c7-8dc3-962a8c10e754</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>21</value>
+      <webElementGuid>7b229f8a-b5f2-4a3d-8b0b-54517674d9d5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/omnix-project[1]/omnix-main-master-page[@class=&quot;ng-tns-c1-3 ng-star-inserted&quot;]/div[@class=&quot;ng-tns-c1-3&quot;]/omnix-home[@class=&quot;ng-tns-c15-14 ng-star-inserted&quot;]/div[@class=&quot;hero&quot;]/div[@class=&quot;hero__search ng-tns-c15-14 ng-trigger ng-trigger-default ng-star-inserted&quot;]/div[@class=&quot;hero__search--group2 ng-tns-c16-16 ng-star-inserted&quot;]/div[@class=&quot;hero__search--date&quot;]/div[@class=&quot;sched-range-picker o-form_two-fields&quot;]/div[@class=&quot;c-calendar-month-container ng-tns-c20-20 ng-trigger ng-trigger-down ng-star-inserted&quot;]/div[@class=&quot;c-calendar-month ng-tns-c20-20 ng-star-inserted&quot;]/div[@class=&quot;c-calendar-month__row ng-tns-c20-20 ng-star-inserted&quot;]/div[@class=&quot;c-calendar-month__cell ng-tns-c20-20 ng-star-inserted&quot;]/div[@class=&quot;c-calendar-month__cell-date ng-tns-c20-20 red ng-star-inserted&quot;]/span[@class=&quot;ng-tns-c20-20&quot;]</value>
+      <webElementGuid>fb6b0e84-a5f6-4540-999f-fc9e2418ff7f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sat'])[2]/following::span[41]</value>
+      <webElementGuid>93219cbe-490f-45b5-822d-dab1cb646c61</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Fri'])[2]/following::span[42]</value>
+      <webElementGuid>6f2e7725-9c6c-4c4b-9161-fbc6a5e5030f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cheapest fare for the month!'])[1]/preceding::span[22]</value>
+      <webElementGuid>4da52716-0c63-4f9b-9cf7-57543e8de054</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='AUD 0.00'])[1]/preceding::span[23]</value>
+      <webElementGuid>3b2e50e9-9f89-4014-a73a-420367544101</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[6]/div/div/span</value>
+      <webElementGuid>ce0ccf90-20da-4439-9328-b284d858fd83</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = '21' or . = '21')]</value>
+      <webElementGuid>f07f2fae-effc-4c6e-bb8c-279ad95e5f0d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

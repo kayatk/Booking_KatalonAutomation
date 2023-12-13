@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_Passport number_ng-tns-c38-118 ng-unt_d0086b</name>
+   <tag></tag>
+   <elementGuidId>caaba36b-e880-4a9c-805d-77374b7e0388</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.o-form_input > input.ng-tns-c38-118.ng-untouched.ng-pristine.ng-valid</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//input[@type='text'])[9]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>4979e808-99e7-4ef8-a36e-cdc77b672b8f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ng-tns-c38-118 ng-untouched ng-pristine ng-valid</value>
+      <webElementGuid>bcd70ab6-f05e-4c2a-839b-1e9ba68ed3dc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>formcontrolname</name>
+      <type>Main</type>
+      <value>passportNumber</value>
+      <webElementGuid>01a9195c-0ce6-48e5-a698-24566b008f58</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+      <webElementGuid>1bb40269-1f81-48c3-ba60-f3ebe498f084</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-name</name>
+      <type>Main</type>
+      <value>passportNumber</value>
+      <webElementGuid>29c5c47e-464f-4bb3-8951-de4b66f9e13d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Enter passport number</value>
+      <webElementGuid>8d11ea7c-22a5-4900-9902-3326675c4ba8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/omnix-project[1]/omnix-main-master-page[@class=&quot;ng-tns-c1-90 ng-star-inserted&quot;]/div[@class=&quot;ng-tns-c1-90&quot;]/omnix-guest-details[@class=&quot;ng-tns-c38-118 ng-star-inserted&quot;]/div[@class=&quot;guest-detail-component&quot;]/section[@class=&quot;c-tab ng-tns-c38-118 ng-trigger ng-trigger-default ng-star-inserted&quot;]/div[@class=&quot;c-tab__container ng-touched ng-dirty ng-invalid&quot;]/div[@class=&quot;o-form_passport ng-tns-c38-118 ng-star-inserted&quot;]/div[@class=&quot;o-form_input&quot;]/input[@class=&quot;ng-tns-c38-118 ng-untouched ng-pristine ng-valid&quot;]</value>
+      <webElementGuid>97631091-d5c3-4905-8203-5f94752786fb</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//input[@type='text'])[9]</value>
+      <webElementGuid>dc07dae8-8bbc-46d3-9dfb-8f8c3e92ffd7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[7]/div/input</value>
+      <webElementGuid>1e99351c-d220-4878-a906-3fe45661676a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@type = 'text' and @placeholder = 'Enter passport number']</value>
+      <webElementGuid>a822b5f8-4c3c-4250-993e-462b3aae3b59</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

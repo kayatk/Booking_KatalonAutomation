@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Melbourne</name>
+   <tag></tag>
+   <elementGuidId>4bf611c0-4c1d-420d-ad56-60df01609e78</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>a.ng-tns-c19-19 > span.ng-tns-c19-19</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Australia'])[1]/following::span[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>1e1fedb1-c547-46c1-9324-1c5bdb7f5590</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ng-tns-c19-19</value>
+      <webElementGuid>6aa3cf2f-4770-45dd-a3a3-4ede7d60cbe4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Melbourne</value>
+      <webElementGuid>618b00bb-27ae-43d3-ab2b-b8345ffd4f01</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/omnix-project[1]/omnix-main-master-page[@class=&quot;ng-tns-c1-3 ng-star-inserted&quot;]/div[@class=&quot;ng-tns-c1-3&quot;]/omnix-home[@class=&quot;ng-tns-c15-14 ng-star-inserted&quot;]/div[@class=&quot;hero&quot;]/div[@class=&quot;hero__search ng-tns-c15-14 ng-trigger ng-trigger-default ng-star-inserted&quot;]/div[@class=&quot;hero__search--group1 ng-tns-c16-16 ng-star-inserted&quot;]/div[@class=&quot;hero__search--destination&quot;]/div[@class=&quot;flight-journey&quot;]/div[@class=&quot;o-form_two-fields ng-untouched ng-pristine ng-invalid&quot;]/div[@class=&quot;dropdown_destination ng-tns-c19-19 ng-trigger ng-trigger-down ng-star-inserted&quot;]/div[@class=&quot;content&quot;]/div[@class=&quot;country ng-tns-c19-19 ng-star-inserted&quot;]/ul[@class=&quot;ng-tns-c19-19 ng-star-inserted&quot;]/li[@class=&quot;ng-tns-c19-19 ng-star-inserted is-active&quot;]/ul[@class=&quot;ng-tns-c19-19 ng-star-inserted&quot;]/li[@class=&quot;ng-tns-c19-19 ng-star-inserted&quot;]/a[@class=&quot;ng-tns-c19-19&quot;]/span[@class=&quot;ng-tns-c19-19&quot;]</value>
+      <webElementGuid>4b02c88d-c162-40bc-8563-c133f47ac340</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Australia'])[1]/following::span[1]</value>
+      <webElementGuid>a75070e9-0c45-4804-af7c-9339b53ad7f7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Country'])[1]/following::span[1]</value>
+      <webElementGuid>a07d5041-8dca-478e-9d1e-de6514e3c2b9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sydney'])[1]/preceding::span[1]</value>
+      <webElementGuid>c5b0f0f6-5624-4f38-aa72-5d56bd266832</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Bahrain'])[1]/preceding::span[2]</value>
+      <webElementGuid>3c47bb24-64f1-4d50-9ebd-032768be9bac</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Melbourne']/parent::*</value>
+      <webElementGuid>4c9c8cf7-08c1-4312-9cde-acecbd8c901a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a/span</value>
+      <webElementGuid>df544c99-e4bd-42d8-bbd3-89133d5bb22a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Melbourne' or . = 'Melbourne')]</value>
+      <webElementGuid>e37569ae-8812-4324-a814-e198d5751097</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

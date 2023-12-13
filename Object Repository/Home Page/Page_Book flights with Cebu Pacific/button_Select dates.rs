@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Select dates</name>
+   <tag></tag>
+   <elementGuidId>4ad8af43-d104-46f1-bf98-1d9c322bea0c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.wrapper > button.o-btn--primary-blue</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@type='button']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>6ec46a6a-0870-4ad4-86d1-0b2afaf17a35</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>o-btn--primary-blue</value>
+      <webElementGuid>18f64607-4246-4f34-9763-0a0059f43c14</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>9aa57185-4167-4032-b092-24cb23581688</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Select dates </value>
+      <webElementGuid>d80f0697-c7a6-4b08-82af-98394a765990</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/omnix-project[1]/omnix-main-master-page[@class=&quot;ng-tns-c1-3 ng-star-inserted&quot;]/div[@class=&quot;ng-tns-c1-3&quot;]/omnix-home[@class=&quot;ng-tns-c15-14 ng-star-inserted&quot;]/div[@class=&quot;hero&quot;]/div[@class=&quot;hero__search ng-tns-c15-14 ng-trigger ng-trigger-default ng-star-inserted&quot;]/div[@class=&quot;hero__search--group2 ng-tns-c16-16 ng-star-inserted&quot;]/div[@class=&quot;hero__search--date&quot;]/div[@class=&quot;sched-range-picker o-form_two-fields&quot;]/div[@class=&quot;c-calendar-month-container ng-tns-c20-20 ng-trigger ng-trigger-down ng-star-inserted&quot;]/div[@class=&quot;c-calendar-total ng-tns-c20-20 ng-star-inserted&quot;]/div[@class=&quot;wrapper&quot;]/button[@class=&quot;o-btn--primary-blue&quot;]</value>
+      <webElementGuid>24fcce42-dcbf-43ea-b172-5c8e5f42f121</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@type='button']</value>
+      <webElementGuid>9c67471c-448a-4598-8cb5-6fb462964154</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Round-trip base fare for 1 adult'])[1]/following::button[1]</value>
+      <webElementGuid>077d292c-e7dc-4390-935f-29caa8df0ee1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='AUD 0.00'])[1]/following::button[1]</value>
+      <webElementGuid>df8097e3-2e57-48a9-a93b-99ae9d095cb7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Departing on'])[1]/preceding::button[1]</value>
+      <webElementGuid>a1edf0df-957a-496a-81d4-01172eb9e661</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Search flights'])[1]/preceding::button[1]</value>
+      <webElementGuid>3b7ad94c-a361-454b-8227-11d8daefdf49</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Select dates']/parent::*</value>
+      <webElementGuid>06adcae7-5877-4821-9dc8-e098e42ab30b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/button</value>
+      <webElementGuid>58a3c346-f8f8-4dfc-b8d3-b8bf506f172f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = ' Select dates ' or . = ' Select dates ')]</value>
+      <webElementGuid>bc289ebc-fbce-4efb-b8ea-f99d3d5c11c0</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

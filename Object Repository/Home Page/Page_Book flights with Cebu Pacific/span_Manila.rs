@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Manila</name>
+   <tag></tag>
+   <elementGuidId>c14b7f38-a152-4116-bfa6-a30867d73ce5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Kalibo'])[1]/following::span[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>248422d4-646f-4382-9be6-465292146db9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ng-tns-c19-78</value>
+      <webElementGuid>f7338f8b-187f-432b-9f93-c3260ef14417</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Manila</value>
+      <webElementGuid>e77e2485-37c9-421f-9ac9-979d34d82703</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/omnix-project[1]/omnix-main-master-page[@class=&quot;ng-tns-c1-62 ng-star-inserted&quot;]/div[@class=&quot;ng-tns-c1-62&quot;]/omnix-home[@class=&quot;ng-tns-c15-73 ng-star-inserted&quot;]/div[@class=&quot;hero&quot;]/div[@class=&quot;hero__search ng-tns-c15-73 ng-trigger ng-trigger-default ng-star-inserted&quot;]/div[@class=&quot;hero__search--group1 ng-tns-c16-75 ng-star-inserted&quot;]/div[@class=&quot;hero__search--destination&quot;]/div[@class=&quot;flight-journey&quot;]/div[@class=&quot;o-form_two-fields ng-untouched ng-pristine ng-invalid&quot;]/div[@class=&quot;dropdown_destination ng-tns-c19-78 ng-trigger ng-trigger-down ng-star-inserted&quot;]/div[@class=&quot;content&quot;]/div[@class=&quot;country ng-tns-c19-78 ng-star-inserted&quot;]/ul[@class=&quot;ng-tns-c19-78 ng-star-inserted&quot;]/li[@class=&quot;ng-tns-c19-78 ng-star-inserted is-active&quot;]/ul[@class=&quot;ng-tns-c19-78 ng-star-inserted&quot;]/li[@class=&quot;ng-tns-c19-78 ng-star-inserted&quot;]/a[@class=&quot;ng-tns-c19-78&quot;]/span[@class=&quot;ng-tns-c19-78&quot;]</value>
+      <webElementGuid>fd3fa6fa-aa97-4e1e-be21-3e6b0cc0c904</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kalibo'])[1]/following::span[1]</value>
+      <webElementGuid>0dd20f8c-e4ae-4975-8787-2d0ddfb2bc28</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Iloilo'])[1]/following::span[2]</value>
+      <webElementGuid>f04b9d28-b2d7-45fa-8e40-a5854b00a3df</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Marinduque'])[1]/preceding::span[1]</value>
+      <webElementGuid>009617ae-72f2-42e3-ac8f-2e257d913047</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Masbate'])[1]/preceding::span[2]</value>
+      <webElementGuid>684ac38c-8bc4-4089-9fc4-9c7328d49159</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Manila']/parent::*</value>
+      <webElementGuid>4b0843f3-0207-414f-a14d-1596fb0f802e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[15]/a/span</value>
+      <webElementGuid>e8f3ccf9-ecf8-4a72-a0d8-23732738fd16</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Manila' or . = 'Manila')]</value>
+      <webElementGuid>ec0360f9-8357-4356-9dd2-828998554a9e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
