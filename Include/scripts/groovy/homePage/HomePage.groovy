@@ -58,18 +58,18 @@ class HomePage {
 	String gotItBtn ="//button[text()=' Got it ']"
 	//Guest Details
 
-	def click(String path) {
-		TestObject btn = new TestObject()
-		btn.setSelectorValue(SelectorMethod.XPATH,path)
-		btn.setSelectorMethod(SelectorMethod.XPATH)
-		WebUI.click(btn)
-	}
-	def enterValue(String path, String value) {
-		TestObject text = new TestObject()
-		text.setSelectorValue(SelectorMethod.XPATH,path)
-		text.setSelectorMethod(SelectorMethod.XPATH)
-		WebUI.setText(text,value )
-	}
+	/*def click(String path) {
+	 TestObject btn = new TestObject()
+	 btn.setSelectorValue(SelectorMethod.XPATH,path)
+	 btn.setSelectorMethod(SelectorMethod.XPATH)
+	 WebUI.click(btn)
+	 }
+	 def enterValue(String path, String value) {
+	 TestObject text = new TestObject()
+	 text.setSelectorValue(SelectorMethod.XPATH,path)
+	 text.setSelectorMethod(SelectorMethod.XPATH)
+	 WebUI.setText(text,value )
+	 }*/
 
 	@And ("click on Continue")
 	def clickContinue() {
@@ -81,20 +81,21 @@ class HomePage {
 		click(iAgree)
 
 	}
-	
+
 	//@And Select <Country> and <City>
 
 	@And("Select (.*) and (.*)")
 	def selectFromCountry(String Country, String City) {
+
 		click(close)
 		click(fromDropdown)
 		String Country1 ="//div[@class='content']//a[contains(text(),'"+Country+"')]"
 		String fromCity1 = "//div[@class='content']//span[contains(text(),'"+City+"')]"
 		click(Country1)
 		click(fromCity1)
-	  }
+	}
 
-	  @Then ("Enter (.*) and (.*)")
+	@Then ("Enter (.*) and (.*)")
 	def selectToCountry(String ToCountry, String ToCity) {
 		String Country2 = "//div[@class='content']//a[contains(text(),'"+ToCountry+"')]"
 		String toCity ="//div[@class='content']//span[contains(text(),'"+ToCity+"')]"
@@ -165,7 +166,7 @@ class HomePage {
 	@And ("enter the Title (.*)")
 	def enterTitle(String Title) {
 		String title="//input[@type = 'text' and @placeholder = 'Select']"
-		String mr ="//a[contains(text(),'"+Title+".')]"	
+		String mr ="//a[contains(text(),'"+Title+".')]"
 		click(title)
 		click(mr)
 	}
@@ -187,7 +188,7 @@ class HomePage {
 		String dd= "(//input[@type = 'text' and @placeholder = 'DD'])[1]"
 		String mm ="(//input[@type = 'text' and @placeholder = 'Month'])[1]"
 		String yy ="(//input[@type = 'text' and @placeholder = 'YYYY'])[1]"
-		String dValue ="//a[contains(text(),'"+DD+"')]"	
+		String dValue ="//a[contains(text(),'"+DD+"')]"
 		String mValue="//a[contains(text(),'"+MM+"')]"
 		String yValue="//a[contains(text(),'"+YYYY+"')]"
 		click(dd)
