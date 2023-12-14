@@ -4,7 +4,7 @@ Scenario Outline: User close the marking window
 Given User navigated to the cebu Home page
 When User click on the close option of the Marketing window
 Then Marketing Window should get closed
-Then Click on Agree
+And Click on Agree
 And Select <Country> and <City>
 Then Enter <ToCountry> and <ToCity>
 Then Select the <DepartDate>
@@ -15,7 +15,7 @@ Then Click on Search flight
 And select Depart Flight
 And select Return Flight
 Then select the fare <Bundle>
-And click on Continue
+Then click on Continue
 Then click on Got it
 And enter the Title <Title>
 And enter Firstname <firstName>

@@ -21,21 +21,16 @@ import internal.GlobalVariable
 import org.openqa.selenium.WebElement
 import org.openqa.selenium.WebDriver
 import org.openqa.selenium.By
-
 import com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory
 import com.kms.katalon.core.webui.driver.DriverFactory
-
 import com.kms.katalon.core.testobject.RequestObject
 import com.kms.katalon.core.testobject.ResponseObject
 import com.kms.katalon.core.testobject.SelectorMethod
 import com.kms.katalon.core.testobject.ConditionType
 import com.kms.katalon.core.testobject.TestObjectProperty
-
 import com.kms.katalon.core.mobile.helper.MobileElementCommonHelper
 import com.kms.katalon.core.util.KeywordUtil
-
 import com.kms.katalon.core.webui.exception.WebElementNotFoundException
-
 import cucumber.api.java.en.And
 import cucumber.api.java.en.Given
 import cucumber.api.java.en.Then
@@ -43,50 +38,38 @@ import cucumber.api.java.en.When
 
 
 
-class HomePage {
+class HomePage extends Base{
 
-	String iAgree = "//a[contains(text(),'I agree')]"
-	String Continue = "//a[contains(text(),'Continue')]"
+
+	//	String Continue = "//a[contains(text(),'Continue')]"
+	String gotItBtn ="//button[text()=' Got it ']"
 	String close ="(//img[@alt='Clear'])[1]"
 	String fromDropdown="//input[@id=\"originFormControl-0\"]"
 	String departxtBox="//input[@type = 'text' and @placeholder = 'Departing on']"
 	String selectDatesBtn = "//button[@type = 'button' and (text() = ' Select dates ')]"
 	String child = "//input[@ng-reflect-name='child']"
-	String searchflightsBtn="/html/body/omnix-project/omnix-main-master-page/div[1]/omnix-home/omnix-search-flight-modal/div/div[2]/div[5]/div[2]"// "//button[@type = 'button' and (text() = ' Search flights' )]"
+	String searchflightsBtn="/html/body/omnix-project/omnix-main-master-page/div[1]/omnix-home/omnix-search-flight-modal/div/div[2]/div[5]/div[2]"
+	// "//button[@type = 'button' and (text() = ' Search flights' )]"
 	String departFlight = "(//div[@class='flight-fare_table'])[1]/div[1]"
 	String returnFlight ="(//div[@class='flight-fare_table'])[2]/div[1]"
-	String gotItBtn ="//button[text()=' Got it ']"
-	//Guest Details
+	String dd= "(//input[@type = 'text' and @placeholder = 'DD'])[1]"
+	String mm ="(//input[@type = 'text' and @placeholder = 'Month'])[1]"
+	String yy ="(//input[@type = 'text' and @placeholder = 'YYYY'])[1]"
 
-	/*def click(String path) {
-	 TestObject btn = new TestObject()
-	 btn.setSelectorValue(SelectorMethod.XPATH,path)
-	 btn.setSelectorMethod(SelectorMethod.XPATH)
-	 WebUI.click(btn)
-	 }
-	 def enterValue(String path, String value) {
-	 TestObject text = new TestObject()
-	 text.setSelectorValue(SelectorMethod.XPATH,path)
-	 text.setSelectorMethod(SelectorMethod.XPATH)
-	 WebUI.setText(text,value )
-	 }*/
 
-	@And ("click on Continue")
-	def clickContinue() {
-		click(Continue)
-	}
 
-	@Then("Click on Agree")
+	@And ("Click on Agree")
 	def clickAgree() {
-		click(iAgree)
-
+		clickbutton("Agree")
 	}
 
-	//@And Select <Country> and <City>
+	@Then("click on Continue")
+	def clickContinue() {
+		clickbutton("Continue")
+	}
 
 	@And("Select (.*) and (.*)")
 	def selectFromCountry(String Country, String City) {
-
 		click(close)
 		click(fromDropdown)
 		String Country1 ="//div[@class='content']//a[contains(text(),'"+Country+"')]"
@@ -154,7 +137,6 @@ class HomePage {
 	@Then ("select the fare (.*)")
 	def selectBundle(String Bundle) {
 		String bundle="//div[contains(@class,'bundle-details')]//button[contains(text(),'"+Bundle+"')]"
-		//"/html/body/omnix-project/omnix-main-master-page/div/omnix-select-flight/section/div[3]/div[10]/div/div[2]/div[2]/div[1]/div[2]/button"
 		click(bundle)
 	}
 
@@ -185,9 +167,6 @@ class HomePage {
 
 	@Then ("Enter Date of Birth (.*) (.*) (.*)")
 	def enterDOB(String DD, String MM, String YYYY) {
-		String dd= "(//input[@type = 'text' and @placeholder = 'DD'])[1]"
-		String mm ="(//input[@type = 'text' and @placeholder = 'Month'])[1]"
-		String yy ="(//input[@type = 'text' and @placeholder = 'YYYY'])[1]"
 		String dValue ="//a[contains(text(),'"+DD+"')]"
 		String mValue="//a[contains(text(),'"+MM+"')]"
 		String yValue="//a[contains(text(),'"+YYYY+"')]"

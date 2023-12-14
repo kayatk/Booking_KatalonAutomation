@@ -17,8 +17,34 @@ import com.kms.katalon.core.testobject.TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
+import com.kms.katalon.core.testobject.SelectorMethod
 
 import internal.GlobalVariable
 
-public class Home {
+public class Base {
+	String option;
+	
+	def click(String path) {
+		TestObject btn = new TestObject()
+		btn.setSelectorValue(SelectorMethod.XPATH,path)
+		btn.setSelectorMethod(SelectorMethod.XPATH)
+		WebUI.click(btn)
+	}
+	def enterValue(String path, String value) {
+		TestObject text = new TestObject()
+		text.setSelectorValue(SelectorMethod.XPATH,path)
+		text.setSelectorMethod(SelectorMethod.XPATH)
+		WebUI.setText(text,value )
+	}
+	def clickbutton(String Options) {
+		if (Options == 'Agree')
+		{
+			option='I agree'
+		}
+		else if (Options =='Continue') {
+			option='Continue'
+		}
+		String buttonName = "//a[contains(text(),'"+option+"')]"
+		click(buttonName)
+	}
 }
