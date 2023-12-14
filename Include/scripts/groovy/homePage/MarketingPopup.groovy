@@ -50,7 +50,7 @@ class MarketingPopup {
 	def homePageNavigation() {
 		WebUI.openBrowser('')
 		WebUI.maximizeWindow()
-		WebUI.navigateToUrl('https://omnix-qa.cebupacificair.com/en-PH/')
+		WebUI.navigateToUrl('')
 	}
 
 	@When("User click on the close option of the Marketing window")
