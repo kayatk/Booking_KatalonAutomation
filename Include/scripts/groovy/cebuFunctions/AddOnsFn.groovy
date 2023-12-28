@@ -1,4 +1,4 @@
-package cebuPages
+package cebuFunctions
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
@@ -18,6 +18,7 @@ import com.kms.katalon.core.testobject.TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
+import cebuPages.AddOnPage
 import internal.GlobalVariable
 
 import org.openqa.selenium.WebElement
@@ -44,15 +45,14 @@ import cucumber.api.java.en.When
 
 
 
-class MarketingCookiesBanner extends Base{
-
-	String closebutton = "//a[@class='close-button']"
-
-	def clickAgree() {
-		clickbutton("Agree")
+class AddOnsFn {
+	
+	AddOnPage addonPage = new AddOnPage()
+	
+	@Then("Click on Proceed Anyway(.*),(.*)")
+	def clickOnProceedAnyway(String FlightType,String addOns ) {
+		if(FlightType=="International" && addOns == "No")
+		  addonPage.clickProceedAnyway() 
 	}
-
-	def clickClose() {
-		click(closebutton)
-	}
+	
 }

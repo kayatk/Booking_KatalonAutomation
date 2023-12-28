@@ -1,4 +1,4 @@
-package cebuPages
+package cebuFunctions
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
@@ -18,6 +18,7 @@ import com.kms.katalon.core.testobject.TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
+import cebuPages.*
 import internal.GlobalVariable
 
 import org.openqa.selenium.WebElement
@@ -36,7 +37,6 @@ import com.kms.katalon.core.mobile.helper.MobileElementCommonHelper
 import com.kms.katalon.core.util.KeywordUtil
 
 import com.kms.katalon.core.webui.exception.WebElementNotFoundException
-
 import cucumber.api.java.en.And
 import cucumber.api.java.en.Given
 import cucumber.api.java.en.Then
@@ -44,15 +44,14 @@ import cucumber.api.java.en.When
 
 
 
-class MarketingCookiesBanner extends Base{
+class MarketingCookiesFunction {
 
-	String closebutton = "//a[@class='close-button']"
+	MarketingCookiesBanner marketingBanner=new MarketingCookiesBanner()
 
-	def clickAgree() {
-		clickbutton("Agree")
-	}
 
+	@When("User click on the close option of the Marketing window and cookies banner")
 	def clickClose() {
-		click(closebutton)
+		marketingBanner.clickClose()
+		marketingBanner.clickAgree()
 	}
 }

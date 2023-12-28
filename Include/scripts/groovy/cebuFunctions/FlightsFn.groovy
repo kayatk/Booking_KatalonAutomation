@@ -1,4 +1,4 @@
-package cebuPages
+package cebuFunctions
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
@@ -31,28 +31,31 @@ import com.kms.katalon.core.testobject.RequestObject
 import com.kms.katalon.core.testobject.ResponseObject
 import com.kms.katalon.core.testobject.ConditionType
 import com.kms.katalon.core.testobject.TestObjectProperty
-
 import com.kms.katalon.core.mobile.helper.MobileElementCommonHelper
 import com.kms.katalon.core.util.KeywordUtil
 
 import com.kms.katalon.core.webui.exception.WebElementNotFoundException
-
+import cebuPages.*
 import cucumber.api.java.en.And
 import cucumber.api.java.en.Given
 import cucumber.api.java.en.Then
 import cucumber.api.java.en.When
 
 
+class FlightsFn {
 
-class MarketingCookiesBanner extends Base{
-
-	String closebutton = "//a[@class='close-button']"
-
-	def clickAgree() {
-		clickbutton("Agree")
+	FlightsPage flight = new FlightsPage()
+		
+	@Then ("select the fare (.*)")
+	def selectBundle(String bundle) {
+		flight.selectBundle(bundle)
+		flight.clickContinue()
 	}
-
-	def clickClose() {
-		click(closebutton)
+	
+	@And ('Choose the return and depart flights')
+	def chooseFlight() {
+		flight.selectDepartFlight()
+		flight.selectReturnFlight()
 	}
+	
 }

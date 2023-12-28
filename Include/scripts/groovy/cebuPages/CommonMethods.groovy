@@ -44,15 +44,15 @@ import cucumber.api.java.en.When
 
 
 
-class MarketingCookiesBanner extends Base{
-
-	String closebutton = "//a[@class='close-button']"
-
-	def clickAgree() {
-		clickbutton("Agree")
+class CommonMethods {
+	@Then("Close the browser")
+	def closeBrowser() {
+		WebUI.closeBrowser()
 	}
-
-	def clickClose() {
-		click(closebutton)
+	@Given("User navigated to the cebu Home page")
+	def homePageNavigation() {
+		WebUI.openBrowser('')
+		WebUI.maximizeWindow()
+		WebUI.navigateToUrl('')
 	}
 }

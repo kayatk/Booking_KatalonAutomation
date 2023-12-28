@@ -1,10 +1,10 @@
 {
-  "keywordFileContentHash": "8B099D25BF00C076FBAD07755504D1C0",
+  "keywordFileContentHash": "324AB433177FD6A17D7BFAB32E020FC9",
   "keywordClasses": [
     {
       "name": "homePage.MarketingPopup",
       "keywordMethods": []
     }
   ],
-  "javadocParsed": false
+  "javadocParsed": true
 }

@@ -1,4 +1,4 @@
-package cebuPages
+package cebuFunctions
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
@@ -36,6 +36,7 @@ import com.kms.katalon.core.mobile.helper.MobileElementCommonHelper
 import com.kms.katalon.core.util.KeywordUtil
 
 import com.kms.katalon.core.webui.exception.WebElementNotFoundException
+import cebuPages.*
 
 import cucumber.api.java.en.And
 import cucumber.api.java.en.Given
@@ -44,15 +45,21 @@ import cucumber.api.java.en.When
 
 
 
-class MarketingCookiesBanner extends Base{
+class HomeFunctions {
 
-	String closebutton = "//a[@class='close-button']"
+	HomePage homePage =new HomePage()
 
-	def clickAgree() {
-		clickbutton("Agree")
-	}
-
-	def clickClose() {
-		click(closebutton)
+	@And("Search the flight (.*),(.*),(.*),(.*),(.*),(.*),(.*),(.*)")
+	def searchflight(String Country,String City,String ToCountry,String ToCity,String DepartDate,String rDate,String count,String tripTypes) {
+		homePage.selectFromCountry(Country,City)
+		homePage.selectToCountry(ToCountry,ToCity)
+		homePage.selectTripType(tripTypes)
+		if((tripTypes=="Round-trip")||(tripTypes="Multi-city")) {
+			homePage.selectDepartDate(DepartDate,tripTypes)
+			homePage.selectReturnDate(rDate)
+		}
+		homePage.clickOnSelectDateButton()
+		homePage.enterChild(count)
+		homePage.clickOnSearchFlight()
 	}
 }
