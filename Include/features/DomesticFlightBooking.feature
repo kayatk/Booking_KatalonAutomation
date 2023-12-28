@@ -12,10 +12,10 @@ Then Add Addons<addOns>
 And Click on Continue button in Add ons Page
 Then Click on Proceed Anyway<FlightType>,<addOns>
 And consent Agreement in booking summary
-#Then Make the payment<cardNumber>,<cardFName>,<cardLName>,<cvv>,<address>,<Ccity>,<CzipCode>
-#And Enter otp<otp>
-#Then Verify Confirmation Message
-#Then Close the browser
+Then Make the payment<cardNumber>,<cardFName>,<cardLName>,<cvv>,<address>,<Ccity>,<CzipCode>
+And Enter otp<otp>
+Then Verify Confirmation Message
+Then Close the browser
 
 Examples: 
 |userType    |FlightType      |addOns |Email                 |Password |Country   |City                     |ToCountry  |ToCity |DepartDate|rDate|count|Bundle        |Title|firstName      |lastName       |DD|MM     |YYYY|Nationality|CTitle|CfirstName      |ClastName       |CDD|CMM     |CYYYY|CNationality|CountryCode|mobileNumber|email            |cardNumber      |cardFName|cardLName|cvv|address        |Ccity  |CzipCode|otp   |tripTypes |
